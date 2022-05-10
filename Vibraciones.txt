@@ -1,0 +1,29 @@
+Primer Intento:
+escuchando sonidos de animales en VibViz se realizo una seleccion los sonidos mas acordes a los animales elegidos
+luego se utilizo la duracion y energia dada en intervalos de 4 
+quedo :
+
+      <li class="one_third"><img src="images/demo/abeja.jpg" alt="abeja" onclick="navigator.vibrate([300,2.9,300,2.9,300,2.9,300,2.9])"></li>
+      <li class="one_third"><img src="images/demo/conejo.jpg" alt="conejo" onclick="navigator.vibrate([740,1.2,740,1.2,740,1.2,740,1.2])"></li>
+      <li class="one_third"><img src="images/demo/aguila.jpg" alt="aguila" onclick="navigator.vibrate([1120, 0.7, 1120, 0.7, 1120, 0.7, 1120, 0.7])"></li>
+      <li class="one_third"><img src="images/demo/elefante.jpg" alt="elefante" onclick="navigator.vibrate([1200, 4.7,1200, 4.7,1200, 4.7,1200, 4.7])"></li>
+      <li class="one_third"><img src="images/demo/gatito.jpg" alt="gato" onclick="navigator.vibrate([1075, 1.3, 1075, 1.3, 1075, 1.3, 1075, 1.3])"></li>
+      <li class="one_third"><img src="images/demo/erizo.jpg" alt="erizo" onclick="navigator.vibrate([320,2.1,320,2.1,320,2.1,320,2.1])"></li>
+
+Para refinar se probo y se dejo como vibracion correcta
+
+la abeja, el gato, el erizo
+
+En los demas se realiza un ajuste:
+
+aguila: se reduce a dos intervalos
+elefante: dos intervalos pero mas largos en duracion y pausa para dar sensasion de lentitud
+conejo: cuatro intervalos mas cortos en duracion y minimo en pausa para dar sensacion de mas suave
+quedo:
+
+      <li class="one_third"><img src="images/demo/abeja.jpg" alt="abeja" onclick="navigator.vibrate([300,2.9,300,2.9,300,2.9,300,2.9])"></li>
+      <li class="one_third"><img src="images/demo/conejo.jpg" alt="conejo" onclick="navigator.vibrate([200,0.5,200,0.5,200,0.5,200,0.5])"></li>
+      <li class="one_third"><img src="images/demo/aguila.jpg" alt="aguila" onclick="navigator.vibrate([500, 0.7, 500, 0.7])"></li>
+      <li class="one_third"><img src="images/demo/elefante.jpg" alt="elefante" onclick="navigator.vibrate([1200, 1000,1200, 1000])"></li>
+      <li class="one_third"><img src="images/demo/gatito.jpg" alt="gato" onclick="navigator.vibrate([1075, 1.3, 1075, 1.3, 1075, 1.3, 1075, 1.3])"></li>
+      <li class="one_third"><img src="images/demo/erizo.jpg" alt="erizo" onclick="navigator.vibrate([320,2.1,320,2.1,320,2.1,320,2.1])"></li>
